@@ -1,8 +1,9 @@
 lastAccountName: SporreKing
 timestamps:
-  login: 1453742584502
+  login: 1453755961429
   logout: 1453732089048
-ipAddress: 127.0.0.1
+  lastteleport: 1453755137930
+ipAddress: 192.168.1.8
 lastlocation:
   world: world
   x: 10055.025474655524

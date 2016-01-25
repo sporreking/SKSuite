@@ -9,11 +9,11 @@ import org.bukkit.entity.Player;
 import com.sk.warpgate.SKMain;
 import com.sk.warpgate.SKWarpgateUtil;
 
-public class SKCommandCreate implements CommandExecutor {
+public class SKCommand implements CommandExecutor {
 	
 	private SKMain main;
 	
-	public SKCommandCreate(SKMain main) {
+	public SKCommand(SKMain main) {
 		this.main = main;
 	}
 	
@@ -29,6 +29,7 @@ public class SKCommandCreate implements CommandExecutor {
 		
 		main.getServer().broadcastMessage(
 				Boolean.toString(SKWarpgateUtil.validStructure(player.getLocation())));
+		
 		return true;
 	}
 }

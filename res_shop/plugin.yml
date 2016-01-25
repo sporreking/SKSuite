@@ -1,0 +1,102 @@
+name: SKShop
+main: com.sk.shop.SKShopMain
+version: 1.0
+author: Alfred Sporre
+
+commands:
+    skshop:
+        description: General SKShop information
+        usage: /skshop
+        aliases: sks
+    skssell:
+        description: Puts the held items up for sale in one of your shops
+        usage: /skssell <shop-id> <price> [limit]
+        aliases: skss
+    sksbuy:
+        description: Requests the held items in one of your shops
+        usage: /sksbuy <shop-id> <price> [limit]
+        aliases: sksb
+    sksremovesell:
+        description: Removes a sell entry from one of your shops
+        usage: /sksremovesell <shop-id> <entry>
+        aliases: [sksrmsell, sksrms]
+    sksremovebuy:
+        description: Removes a buy entry from one of your shops
+        usage: /sksremovebuy <shop-id> <entry>
+        aliases: [sksrmbuy, sksrmb]
+
+permissions:
+    sk.shop.*:
+        children:
+            sk.shop.info: true
+            sk.shop.entry.add.sell.self: true
+            sk.shop.entry.add.sell.others: true
+            sk.shop.entry.add.buy.self: true
+            sk.shop.entry.add.buy.others: true
+            sk.shop.entry.remove.sell.self: true
+            sk.shop.entry.remove.sell.others: true
+            sk.shop.entry.remove.buy.self: true
+            sk.shop.entry.remove.buy.others: true
+            sk.shop.sell: true
+            sk.shop.buy: true
+            sk.shop.open: true
+            sk.shop.chest.open.self: true
+            sk.shop.chest.open.others: true
+            sk.shop.create: true
+            sk.shop.remove.self: true
+            sk.shop.remove.others: true
+            
+    sk.shop.info:
+        description: Allows you to use the /skshop command
+        default: true
+    sk.shop.entry.add.sell.self:
+        description: Allows you to add sell entries to your own shops
+        default: false
+    sk.shop.entry.add.sell.others:
+        description: Allows you to add sell entries to other peoples shops
+        default: false
+    sk.shop.entry.add.buy.self:
+        description: Allows you to add buy entries to your own shops
+        default: false
+    sk.shop.entry.add.buy.others:
+        description: Allows you to add buy entries to other peoples shops
+        default: false
+    sk.shop.entry.remove.sell.self:
+        description: Allows you to remove sell entries from your own shops
+        default: false
+    sk.shop.entry.remove.sell.others:
+        description: Allows you to remove sell entries from other peoples shops
+        default: false
+    sk.shop.entry.remove.buy.self:
+        description: Allows you to remove buy entries from your own shops
+        default: false
+    sk.shop.entry.remove.buy.others:
+        description: Allows you to remove buy entries from other peoples shops
+        default: false
+    sk.shop.sell:
+        description: Allows you to sell items to a shop
+        default: false
+    sk.shop.buy:
+        description: Allows you to buy items from a shop
+        default: false
+    sk.shop.open:
+        description: Allows you to open shops
+        default: false
+    sk.shop.chest.open.self:
+        description: Allows you to open you own shop chests
+        default: false
+    sk.shop.chest.open.others:
+        description: Allows you to open other peoples shop chests
+        default: false
+    sk.shop.create:
+        description: Allows you to create shops
+        default: false
+    sk.shop.remove.self:
+        description: Allows you to remove your own shops
+        default: false
+    sk.shop.remove.others:
+        description: Allows you to remove other peoples shops
+        default: false
+#    sksmessage:
+#        description: Sets the message for one of your shops
+#        usage: /sksmessage <shop-id> <msg>

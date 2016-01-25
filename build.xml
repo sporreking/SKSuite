@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project name="SKWarpgate" default="makejar" basedir=".">
   <target name ="makejar" description="Creates jar files for the SKSuite">
-    <jar jarfile="server/plugins/SKWarpgate.jar" includes="**" basedir="bin/warpgate"/>
+    <jar jarfile="server/plugins/SKShop.jar" includes="**" basedir="bin/shop"/>
+  	<jar jarfile="server/plugins/SKWarpgate.jar" includes="**" basedir="bin/warpgate"/>
   </target>
 </project>

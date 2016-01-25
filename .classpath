@@ -2,7 +2,10 @@
 <classpath>
 	<classpathentry kind="src" output="bin/warpgate" path="src_warpgate"/>
 	<classpathentry kind="src" output="bin/warpgate" path="res_warpgate"/>
+	<classpathentry kind="src" output="bin/shop" path="res_shop"/>
+	<classpathentry kind="src" output="bin/shop" path="src_shop"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8"/>
 	<classpathentry kind="lib" path="server/craftbukkit.jar"/>
+	<classpathentry kind="lib" path="server/plugins/Vault.jar"/>
 	<classpathentry kind="output" path="bin/default"/>
 </classpath>

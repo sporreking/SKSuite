@@ -4,6 +4,9 @@ author: Alfred Sporre
 main: com.sk.warpgate.SKMain
 
 commands:
+    skwarpgate:
+        description: Displays general information about the SKWarpgate plugin
+        usage: /skwarpgate
     skwarpgate create:
         description: Creates a warpgate
         usage: /skwarpgate create <name>

@@ -4,7 +4,7 @@ import java.util.HashMap;
 
 import org.bukkit.plugin.java.JavaPlugin;
 
-import com.sk.warpgate.command.SKCommandCreate;
+import com.sk.warpgate.command.SKCommand;
 
 public class SKMain extends JavaPlugin {
 	
@@ -25,7 +25,7 @@ public class SKMain extends JavaPlugin {
 	}
 	
 	private void registerCommands() {
-		getCommand("skwarpgate create").setExecutor(new SKCommandCreate(this));
+		getCommand("skwarpgate").setExecutor(new SKCommand(this));
 	}
 	
 	private void registerPositionChecker() {
