@@ -1,0 +1,12 @@
+name: SKWarpgate
+version: 1.0
+author: Alfred Sporre
+main: com.sk.warpgate.SKMain
+
+commands:
+    skwarpgate create:
+        description: Creates a warpgate
+        usage: /skwarpgate create <name>
+    skwarpgate bind:
+        description: Binds two warpgates
+        usage: /skwarpgate bind <warpgate1> <warpgate2>
