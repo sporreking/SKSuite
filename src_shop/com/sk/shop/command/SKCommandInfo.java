@@ -26,8 +26,8 @@ public class SKCommandInfo implements CommandExecutor {
 			}
 		}
 		
-		sender.sendMessage(ChatColor.GOLD + "To create a shop with SKShop, right click on a sign that says"
-				+ ChatColor.BLUE + "'[SKShop]'" + ChatColor.GOLD + " on the first row. A name has to be provided"
+		sender.sendMessage(ChatColor.GREEN + "To create a shop with SKShop, right click on a sign that says"
+				+ ChatColor.BLUE + "'[SKShop]'" + ChatColor.GREEN + " on the first row. A name has to be provided"
 						+ " on the second row as well.");
 		
 		Bukkit.dispatchCommand(sender, "help skshop");

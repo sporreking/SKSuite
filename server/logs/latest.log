@@ -1,96 +1,78 @@
-[22:05:57] [Server thread/INFO]: Starting minecraft server version 1.8.8
-[22:05:57] [Server thread/INFO]: Loading properties
-[22:05:57] [Server thread/INFO]: Default game type: SURVIVAL
-[22:05:57] [Server thread/INFO]: Generating keypair
-[22:05:57] [Server thread/INFO]: Starting Minecraft server on 192.168.1.8:25565
-[22:05:57] [Server thread/INFO]: Using default channel type
-[22:05:57] [Server thread/INFO]: This server is running CraftBukkit version git-Bukkit-18fbb24 (MC: 1.8.8) (Implementing API version 1.8.8-R0.1-SNAPSHOT)
-[22:05:57] [Server thread/INFO]: [SKShop] Loading SKShop v1.0
-[22:05:57] [Server thread/INFO]: [SKWarpgate] Loading SKWarpgate v1.0
-[22:05:57] [Server thread/INFO]: [Essentials] Loading Essentials vTeamCity
-[22:05:57] [Server thread/INFO]: [Vault] Loading Vault v1.5.6-b49
-[22:05:57] [Server thread/INFO]: [EssentialsChat] Loading EssentialsChat vTeamCity
-[22:05:57] [Server thread/INFO]: [GroupManager] Loading GroupManager v2.0 (Phoenix)
-[22:05:57] [Server thread/INFO]: [Vault] Enabling Vault v1.5.6-b49
-[22:05:57] [Server thread/INFO]: [Vault] [Economy] Essentials Economy found: Waiting
-[22:05:57] [Server thread/INFO]: [Vault] [Permission] GroupManager found: Waiting
-[22:05:57] [Server thread/INFO]: [Vault] [Permission] SuperPermissions loaded as backup permission system.
-[22:05:57] [Server thread/INFO]: [Vault] [Chat] GroupManager found: Waiting
-[22:05:57] [Server thread/INFO]: [Vault] Enabled Version 1.5.6-b49
-[22:05:57] [Server thread/INFO]: Preparing level "world"
-[22:05:57] [Server thread/INFO]: Preparing start region for level 0 (Seed: 2089442009858644736)
-[22:05:58] [Server thread/INFO]: Preparing start region for level 1 (Seed: 2089442009858644736)
-[22:05:59] [Server thread/INFO]: Preparing start region for level 2 (Seed: 2089442009858644736)
-[22:05:59] [Server thread/INFO]: [SKShop] Enabling SKShop v1.0
-[22:05:59] [Server thread/INFO]: [SKWarpgate] Enabling SKWarpgate v1.0
-[22:05:59] [Server thread/INFO]: [Essentials] Enabling Essentials vTeamCity
-[22:05:59] [Server thread/INFO]: Bukkit version format changed. Version not checked.
-[22:05:59] [Server thread/INFO]: git-Bukkit-18fbb24 (MC: 1.8.8)
-[22:05:59] [Server thread/INFO]: 1.8.8-R0.1-SNAPSHOT
-[22:05:59] [Server thread/INFO]: Using locale en
-[22:05:59] [Server thread/INFO]: Using locale en
-[22:05:59] [Server thread/INFO]: [Vault][Economy] Essentials Economy hooked.
-[22:05:59] [Server thread/INFO]: Essentials: Using config file enhanced permissions.
-[22:05:59] [Server thread/INFO]: Permissions listed in as player-commands will be given to all users.
-[22:05:59] [Server thread/INFO]: [EssentialsChat] Enabling EssentialsChat vTeamCity
-[22:05:59] [Server thread/INFO]: [GroupManager] Enabling GroupManager v2.0 (Phoenix)
-[22:05:59] [Server thread/INFO]: GroupManager - INFO - World Found: world
-[22:05:59] [Server thread/INFO]: GroupManager - INFO - Superperms support enabled.
-[22:05:59] [Server thread/INFO]: GroupManager - INFO - Scheduled Data Saving is set for every 10 minutes!
-[22:05:59] [Server thread/INFO]: GroupManager - INFO - Backups will be retained for 24 hours!
-[22:05:59] [Server thread/INFO]: GroupManager version 2.0 (Phoenix) is enabled!
-[22:05:59] [Server thread/INFO]: [Vault][Permission] GroupManager hooked.
-[22:05:59] [Server thread/INFO]: [Vault][Chat] GroupManager - Chat hooked.
-[22:05:59] [Server thread/INFO]: Essentials: Using GroupManager based permissions.
-[22:05:59] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
-[22:05:59] [Server thread/INFO]: Done (1,788s)! For help, type "help" or "?"
-[22:05:59] [Server thread/INFO]: GroupManager - INFO - Bukkit Permissions Updated!
-[22:05:59] [pool-3-thread-6/INFO]: [Vault] Checking for Updates ... 
-[22:06:00] [pool-3-thread-6/INFO]: [Vault] No new version available
-[22:06:01] [User Authenticator #1/INFO]: UUID of player SporreKing is 4ee43f32-e722-4967-9e2c-b8168b27efd7
-[22:06:01] [Server thread/INFO]: SporreKing[/192.168.1.8:55313] logged in with entity id 31 at ([world]10029.447909844019, 71.0, 10015.59587025421)
-[22:06:22] [Server thread/INFO]: SporreKing issued server command: /skwarpgate
-[22:06:22] [Server thread/INFO]: GOLD_BLOCK
-[22:06:22] [Server thread/INFO]: false
-[22:06:26] [Server thread/INFO]: SporreKing issued server command: /skwarpgate
-[22:06:26] [Server thread/INFO]: DIAMOND_BLOCK
-[22:06:26] [Server thread/INFO]: GOLD_BLOCK
-[22:06:26] [Server thread/INFO]: GOLD_BLOCK
-[22:06:26] [Server thread/INFO]: GOLD_BLOCK
-[22:06:26] [Server thread/INFO]: GOLD_BLOCK
-[22:06:26] [Server thread/INFO]: true
-[22:06:28] [Server thread/INFO]: SporreKing issued server command: /skwarpgate
-[22:06:28] [Server thread/INFO]: DIAMOND_BLOCK
-[22:06:28] [Server thread/INFO]: GOLD_BLOCK
-[22:06:28] [Server thread/INFO]: GOLD_BLOCK
-[22:06:28] [Server thread/INFO]: GOLD_BLOCK
-[22:06:28] [Server thread/INFO]: GOLD_BLOCK
-[22:06:28] [Server thread/INFO]: true
-[22:06:29] [Server thread/INFO]: SporreKing issued server command: /skwarpgate
-[22:06:29] [Server thread/INFO]: GOLD_BLOCK
-[22:06:29] [Server thread/INFO]: false
-[22:06:51] [Server thread/INFO]: SporreKing issued server command: /skwarpgate
-[22:06:51] [Server thread/INFO]: SMOOTH_BRICK
-[22:06:51] [Server thread/INFO]: false
-[22:07:17] [Server thread/INFO]: SporreKing issued server command: /stop
-[22:07:17] [Server thread/INFO]: [SporreKing: Stopping the server]
-[22:07:17] [Server thread/INFO]: Stopping server
-[22:07:17] [Server thread/INFO]: [GroupManager] Disabling GroupManager v2.0 (Phoenix)
-[22:07:17] [Server thread/INFO]: [Vault][Permission] GroupManager un-hooked.
-[22:07:17] [Server thread/INFO]: [Vault][Chat] GroupManager - Chat un-hooked.
-[22:07:17] [Server thread/INFO]: GroupManager - INFO - Scheduled Data Saving is disabled!
-[22:07:17] [Server thread/INFO]: GroupManager version 2.0 (Phoenix) is disabled!
-[22:07:17] [Server thread/INFO]: [EssentialsChat] Disabling EssentialsChat vTeamCity
-[22:07:17] [Server thread/INFO]: Essentials: Using config file enhanced permissions.
-[22:07:17] [Server thread/INFO]: Permissions listed in as player-commands will be given to all users.
-[22:07:17] [Server thread/INFO]: [Vault] Disabling Vault v1.5.6-b49
-[22:07:17] [Server thread/INFO]: [Essentials] Disabling Essentials vTeamCity
-[22:07:17] [Server thread/INFO]: [SKWarpgate] Disabling SKWarpgate v1.0
-[22:07:17] [Server thread/INFO]: [SKShop] Disabling SKShop v1.0
-[22:07:17] [Server thread/INFO]: Saving players
-[22:07:17] [Server thread/INFO]: SporreKing lost connection: Server closed
-[22:07:17] [Server thread/INFO]: SporreKing left the game.
-[22:07:17] [Server thread/INFO]: Saving worlds
-[22:07:17] [Server thread/INFO]: Saving chunks for level 'world'/Overworld
-[22:07:18] [Server thread/INFO]: Saving chunks for level 'world_nether'/Nether
-[22:07:18] [Server thread/INFO]: Saving chunks for level 'world_the_end'/The End
+[14:31:01] [Server thread/INFO]: Starting minecraft server version 1.8.8
+[14:31:01] [Server thread/INFO]: Loading properties
+[14:31:01] [Server thread/INFO]: Default game type: SURVIVAL
+[14:31:01] [Server thread/INFO]: Generating keypair
+[14:31:01] [Server thread/INFO]: Starting Minecraft server on 10.53.253.30:25565
+[14:31:01] [Server thread/INFO]: Using default channel type
+[14:31:02] [Server thread/INFO]: This server is running CraftBukkit version git-Bukkit-18fbb24 (MC: 1.8.8) (Implementing API version 1.8.8-R0.1-SNAPSHOT)
+[14:31:03] [Server thread/INFO]: [SKShop] Loading SKShop v1.0
+[14:31:03] [Server thread/INFO]: [SKWarpgate] Loading SKWarpgate v1.0
+[14:31:03] [Server thread/INFO]: [Essentials] Loading Essentials vTeamCity
+[14:31:03] [Server thread/INFO]: [Vault] Loading Vault v1.5.6-b49
+[14:31:03] [Server thread/INFO]: [EssentialsChat] Loading EssentialsChat vTeamCity
+[14:31:03] [Server thread/INFO]: [GroupManager] Loading GroupManager v2.0 (Phoenix)
+[14:31:03] [Server thread/INFO]: [Vault] Enabling Vault v1.5.6-b49
+[14:31:03] [Server thread/INFO]: [Vault] [Economy] Essentials Economy found: Waiting
+[14:31:03] [Server thread/INFO]: [Vault] [Permission] GroupManager found: Waiting
+[14:31:03] [Server thread/INFO]: [Vault] [Permission] SuperPermissions loaded as backup permission system.
+[14:31:03] [Server thread/INFO]: [Vault] [Chat] GroupManager found: Waiting
+[14:31:03] [Server thread/INFO]: [Vault] Enabled Version 1.5.6-b49
+[14:31:03] [Server thread/INFO]: Preparing level "world"
+[14:31:03] [Server thread/INFO]: Preparing start region for level 0 (Seed: 2089442009858644736)
+[14:31:04] [Server thread/INFO]: Preparing spawn area: 15%
+[14:31:05] [Server thread/INFO]: Preparing spawn area: 91%
+[14:31:06] [Server thread/INFO]: Preparing start region for level 1 (Seed: 2089442009858644736)
+[14:31:07] [Server thread/INFO]: Preparing spawn area: 36%
+[14:31:08] [Server thread/INFO]: Preparing spawn area: 86%
+[14:31:08] [Server thread/INFO]: Preparing start region for level 2 (Seed: 2089442009858644736)
+[14:31:09] [Server thread/INFO]: [SKShop] Enabling SKShop v1.0
+[14:31:09] [Server thread/INFO]: [SKWarpgate] Enabling SKWarpgate v1.0
+[14:31:09] [Server thread/INFO]: [Essentials] Enabling Essentials vTeamCity
+[14:31:09] [Server thread/INFO]: Bukkit version format changed. Version not checked.
+[14:31:09] [Server thread/INFO]: git-Bukkit-18fbb24 (MC: 1.8.8)
+[14:31:09] [Server thread/INFO]: 1.8.8-R0.1-SNAPSHOT
+[14:31:09] [Server thread/INFO]: Using locale en
+[14:31:09] [Server thread/INFO]: Using locale en
+[14:31:09] [Server thread/INFO]: [Vault][Economy] Essentials Economy hooked.
+[14:31:09] [Server thread/INFO]: Essentials: Using config file enhanced permissions.
+[14:31:09] [Server thread/INFO]: Permissions listed in as player-commands will be given to all users.
+[14:31:09] [Server thread/INFO]: [EssentialsChat] Enabling EssentialsChat vTeamCity
+[14:31:09] [Server thread/INFO]: [GroupManager] Enabling GroupManager v2.0 (Phoenix)
+[14:31:09] [Server thread/INFO]: GroupManager - INFO - World Found: world
+[14:31:09] [Server thread/INFO]: GroupManager - INFO - Superperms support enabled.
+[14:31:09] [Server thread/INFO]: GroupManager - INFO - Scheduled Data Saving is set for every 10 minutes!
+[14:31:09] [Server thread/INFO]: GroupManager - INFO - Backups will be retained for 24 hours!
+[14:31:09] [Server thread/INFO]: GroupManager version 2.0 (Phoenix) is enabled!
+[14:31:09] [Server thread/INFO]: [Vault][Permission] GroupManager hooked.
+[14:31:09] [Server thread/INFO]: [Vault][Chat] GroupManager - Chat hooked.
+[14:31:09] [Server thread/INFO]: Essentials: Using GroupManager based permissions.
+[14:31:09] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[14:31:10] [Server thread/INFO]: Done (6,494s)! For help, type "help" or "?"
+[14:31:10] [Server thread/INFO]: GroupManager - INFO - Bukkit Permissions Updated!
+[14:31:10] [pool-3-thread-6/INFO]: [Vault] Checking for Updates ... 
+[14:31:11] [pool-3-thread-6/INFO]: [Vault] No new version available
+[14:31:14] [User Authenticator #1/INFO]: UUID of player SporreKing is 4ee43f32-e722-4967-9e2c-b8168b27efd7
+[14:31:14] [Server thread/INFO]: SporreKing[/10.53.253.30:62018] logged in with entity id 31 at ([world]10041.5, 71.0, 10023.70070787557)
+[14:31:17] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 2572ms behind, skipping 51 tick(s)
+[14:32:33] [Server thread/INFO]: SporreKing issued server command: /stop
+[14:32:34] [Server thread/INFO]: [SporreKing: Stopping the server]
+[14:32:34] [Server thread/INFO]: Stopping server
+[14:32:34] [Server thread/INFO]: [GroupManager] Disabling GroupManager v2.0 (Phoenix)
+[14:32:34] [Server thread/INFO]: [Vault][Permission] GroupManager un-hooked.
+[14:32:34] [Server thread/INFO]: [Vault][Chat] GroupManager - Chat un-hooked.
+[14:32:34] [Server thread/INFO]: GroupManager - INFO - Scheduled Data Saving is disabled!
+[14:32:34] [Server thread/INFO]: GroupManager version 2.0 (Phoenix) is disabled!
+[14:32:34] [Server thread/INFO]: [EssentialsChat] Disabling EssentialsChat vTeamCity
+[14:32:34] [Server thread/INFO]: Essentials: Using config file enhanced permissions.
+[14:32:34] [Server thread/INFO]: Permissions listed in as player-commands will be given to all users.
+[14:32:34] [Server thread/INFO]: [Vault] Disabling Vault v1.5.6-b49
+[14:32:34] [Server thread/INFO]: [Essentials] Disabling Essentials vTeamCity
+[14:32:34] [Server thread/INFO]: [SKWarpgate] Disabling SKWarpgate v1.0
+[14:32:34] [Server thread/INFO]: [SKShop] Disabling SKShop v1.0
+[14:32:34] [Server thread/INFO]: Saving players
+[14:32:34] [Server thread/INFO]: SporreKing lost connection: Server closed
+[14:32:34] [Server thread/INFO]: SporreKing left the game.
+[14:32:34] [Server thread/INFO]: Saving worlds
+[14:32:34] [Server thread/INFO]: Saving chunks for level 'world'/Overworld
+[14:32:35] [Server thread/INFO]: Saving chunks for level 'world_nether'/Nether
+[14:32:35] [Server thread/INFO]: Saving chunks for level 'world_the_end'/The End
