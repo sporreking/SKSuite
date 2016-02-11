@@ -144,7 +144,7 @@ public class SKShop {
 	}
 	
 	private void formatSign() {
-		sign.setLine(0, ChatColor.DARK_GREEN + "[SKShop " + ChatColor.BLUE + "ID: " + id + ChatColor.DARK_GREEN + "]");
+		sign.setLine(0, ChatColor.DARK_GREEN + "[SKS " + ChatColor.BLUE + "#" + id + ChatColor.DARK_GREEN + "]");
 		sign.setLine(1, ChatColor.BLUE + name);
 		sign.setLine(2, ChatColor.DARK_GREEN + "Owner:");
 		sign.setLine(3, ChatColor.BLUE + owner);
@@ -212,7 +212,7 @@ public class SKShop {
 	}
 	
 	private Inventory createHomeGUI() {
-		Inventory inv = Bukkit.createInventory(null, 9 * 3, name + GUI_HOME_SUFFIX);
+		Inventory inv = Bukkit.createInventory(null, 9 * 3, name + GUI_HOME_SUFFIX + " (" + id + ")");
 		
 		
 		ItemStack buy = new ItemStack(Material.GOLD_INGOT);
@@ -236,7 +236,7 @@ public class SKShop {
 	
 	private Inventory createBuyGUI(Player player) {
 		
-		Inventory inv = Bukkit.createInventory(null, (int) Math.ceil(sellEntries.size() / 7f + 2) * 9, name + GUI_BUY_SUFFIX);
+		Inventory inv = Bukkit.createInventory(null, (int) Math.ceil(sellEntries.size() / 7f + 2) * 9, name + GUI_BUY_SUFFIX + " (" + id + ")");
 		
 		for(int i = 0; i < sellEntries.size(); i++) {
 			ItemStack is = new ItemStack(Material.matchMaterial(sellEntries.get(i).ITEM), sellEntries.get(i).AMOUNT);
@@ -277,7 +277,7 @@ public class SKShop {
 	
 	private Inventory createSellGUI(Player player) {
 
-		Inventory inv = Bukkit.createInventory(null, (int) Math.ceil(buyEntries.size() / 7f + 2) * 9, name + GUI_SELL_SUFFIX);
+		Inventory inv = Bukkit.createInventory(null, (int) Math.ceil(buyEntries.size() / 7f + 2) * 9, name + GUI_SELL_SUFFIX + " (" + id + ")");
 		
 		for(int i = 0; i < buyEntries.size(); i++) {
 			ItemStack is = new ItemStack(Material.matchMaterial(buyEntries.get(i).ITEM), buyEntries.get(i).AMOUNT);

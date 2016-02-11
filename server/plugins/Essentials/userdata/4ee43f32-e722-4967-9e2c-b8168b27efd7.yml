@@ -1,9 +1,9 @@
 lastAccountName: SporreKing
 timestamps:
-  login: 1453901474781
-  logout: 1453814391103
+  login: 1454876909277
+  logout: 1454876183650
   lastteleport: 1453755137930
-ipAddress: 10.53.253.30
+ipAddress: 192.168.1.8
 lastlocation:
   world: world
   x: 10055.025474655524
@@ -14,8 +14,8 @@ lastlocation:
 afk: false
 logoutlocation:
   world: world
-  x: 10039.736022186054
-  y: 76.0
-  z: 10024.096029399292
-  yaw: 108.098145
-  pitch: 29.808018
+  x: 10049.37913726758
+  y: 71.0
+  z: 10039.416186695757
+  yaw: -7.686704
+  pitch: 33.788662

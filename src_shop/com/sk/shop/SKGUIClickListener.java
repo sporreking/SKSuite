@@ -37,20 +37,26 @@ public class SKGUIClickListener implements Listener {
 		
 		Inventory inv = e.getInventory();
 		
-		SKShop shop = main.getShop(inv.getName().split("[ ][-][ ]")[0]);
+		SKShop shop;
+		
+		try {
+			shop = main.getShop(Integer.parseInt(inv.getName().substring(inv.getName().lastIndexOf('(') + 1, inv.getName().lastIndexOf(')'))));
+		} catch (NumberFormatException | StringIndexOutOfBoundsException ex) {
+			return;
+		}
 		
 		if(shop != null && shop.getInteractingPlayers().contains(e.getWhoClicked())) {
 			if(e.getCurrentItem() == null)
 				return;
 			
-			if(inv.getName().endsWith(SKShop.GUI_HOME_SUFFIX)) {
+			if(inv.getName().endsWith(SKShop.GUI_HOME_SUFFIX + " (" + shop.getID() + ")")) {
 				onClickHome(e, shop, inv);
-			} else if(inv.getName().endsWith(SKShop.GUI_BUY_SUFFIX) && e.getWhoClicked().hasPermission("sk.shop.buy")) {
+			} else if(inv.getName().endsWith(SKShop.GUI_BUY_SUFFIX + " (" + shop.getID() + ")") && e.getWhoClicked().hasPermission("sk.shop.buy")) {
 				shop.buy((Player) e.getWhoClicked(), e.getSlot() - Math.floorDiv(e.getSlot(), 9) * 9 - 1);
 				if(e.getCurrentItem().getType() == Material.BARRIER) {
 					shop.openGUI((Player) e.getWhoClicked(), SKShop.GUI_HOME);
 				}
-			} else if(inv.getName().endsWith(SKShop.GUI_SELL_SUFFIX) && e.getWhoClicked().hasPermission("sk.shop.sell")) {
+			} else if(inv.getName().endsWith(SKShop.GUI_SELL_SUFFIX + " (" + shop.getID() + ")") && e.getWhoClicked().hasPermission("sk.shop.sell")) {
 				shop.sell((Player) e.getWhoClicked(), e.getSlot() - Math.floorDiv(e.getSlot(), 9) * 9 - 1);
 				if(e.getCurrentItem().getType() == Material.BARRIER) {
 					shop.openGUI((Player) e.getWhoClicked(), SKShop.GUI_HOME);
